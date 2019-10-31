@@ -6,4 +6,12 @@
 [0;39m2019/10/31-15:12 [32m[main][0;39m [31mWARN [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36m级别：warn, 输出：hello world
 [0;39m2019/10/31-15:12 [32m[main][0;39m [1;31mERROR[0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36m级别：error, 输出：hello world
 [0;39m2019/10/31-15:12 [32m[SpringContextShutdownHook][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m2019/10/31-15:50 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36mStarting LogTest on bogon with PID 1716 (started by bjhl in /Users/bjhl/Desktop/code/javacode/demo)
+[0;39m2019/10/31-15:50 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36mNo active profile set, falling back to default profiles: default
+[0;39m2019/10/31-15:50 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m2019/10/31-15:50 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36mStarted LogTest in 2.208 seconds (JVM running for 3.769)
+[0;39m2019/10/31-15:50 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36m级别：info, 输出：hello world
+[0;39m2019/10/31-15:50 [32m[main][0;39m [31mWARN [0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36m级别：warn, 输出：hello world
+[0;39m2019/10/31-15:50 [32m[main][0;39m [1;31mERROR[0;39m [1;35mcom.example.demo.log.LogTest[0;39m- [36m级别：error, 输出：hello world
+[0;39m2019/10/31-15:50 [32m[SpringContextShutdownHook][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mShutting down ExecutorService 'applicationTaskExecutor'
 [0;39m
