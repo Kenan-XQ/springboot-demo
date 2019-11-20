@@ -25,7 +25,7 @@ import java.util.Map;
  * @Desc:
  */
 @RestController
-public class DataController {
+public class EsDataController {
 
     @Autowired
     private MySQLBlogRepository mySQLBlogRepository;

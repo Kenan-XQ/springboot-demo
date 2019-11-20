@@ -557,4 +557,468 @@ Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: MySQLBLog is not
 [0;39m2019/11/20-11:21 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.springframework.web.servlet.DispatcherServlet[0;39m- [36mCompleted initialization in 10 ms
 [0;39m2019/11/20-11:25 [32m[http-nio-7080-exec-5][0;39m [31mWARN [0;39m [1;35morg.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver[0;39m- [36mResolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
 [0;39m2019/11/20-11:30 [32m[SpringContextShutdownHook][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:31 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.StartupInfoLogger[0;39m- [36mInetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mStarting DemoApplication on xq.local with PID 23379 (/Users/bjhl/Desktop/code/javacode/demo/target/classes started by bjhl in /Users/bjhl/Desktop/code/javacode/demo)
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mNo active profile set, falling back to default profiles: default
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 62ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.es.EsBlogRepository.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 9ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m- [36mBean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m- [36mTomcat initialized with port(s): 7080 (http)
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardService[0;39m- [36mStarting service [Tomcat]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m- [36mStarting Servlet engine: [Apache Tomcat/9.0.27]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m- [36mInitializing Spring embedded WebApplicationContext
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.web.context.ContextLoader[0;39m- [36mRoot WebApplicationContext: initialization completed in 1555 ms
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Starting...
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Start completed.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.jpa.internal.util.LogHelper[0;39m- [36mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.Version[0;39m- [36mHHH000412: Hibernate Core {5.4.6.Final}
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.annotations.common.Version[0;39m- [36mHCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.dialect.Dialect[0;39m- [36mHHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[0;39m- [36mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[0;39m- [36mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mno modules loaded
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.elasticsearch.client.TransportClientFactoryBean[0;39m- [36mAdding transport node : 127.0.0.1:9300
+[0;39m2019/11/20-18:31 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[0;39m- [36mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping[0;39m- [36mAdding welcome page: class path resource [static/index.html]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext[0;39m- [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[0;39m- [36mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Shutdown initiated...
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Shutdown completed.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardService[0;39m- [36mStopping service [Tomcat]
+[0;39m2019/11/20-18:31 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m- [36m
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m2019/11/20-18:31 [32m[main][0;39m [1;31mERROR[0;39m [1;35morg.springframework.boot.SpringApplication[0;39m- [36mApplication run failed
+[0;39morg.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: java.lang.IllegalStateException: No group.id found in consumer config, container properties, or @KafkaListener annotation; a group.id is required when group management is used.
+	at org.springframework.util.Assert.state(Assert.java:73)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.checkGroupId(AbstractMessageListenerContainer.java:382)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:318)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:309)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:256)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 common frames omitted
+2019/11/20-18:35 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.StartupInfoLogger[0;39m- [36mInetAddress.getLocalHost().getHostName() took 5006 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mStarting DemoApplication on xq.local with PID 23396 (/Users/bjhl/Desktop/code/javacode/demo/target/classes started by bjhl in /Users/bjhl/Desktop/code/javacode/demo)
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mNo active profile set, falling back to default profiles: default
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 60ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.es.EsBlogRepository.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m- [36mBean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m- [36mTomcat initialized with port(s): 7080 (http)
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardService[0;39m- [36mStarting service [Tomcat]
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m- [36mStarting Servlet engine: [Apache Tomcat/9.0.27]
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m- [36mInitializing Spring embedded WebApplicationContext
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.web.context.ContextLoader[0;39m- [36mRoot WebApplicationContext: initialization completed in 1365 ms
+[0;39m2019/11/20-18:35 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Starting...
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Start completed.
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.jpa.internal.util.LogHelper[0;39m- [36mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.Version[0;39m- [36mHHH000412: Hibernate Core {5.4.6.Final}
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.annotations.common.Version[0;39m- [36mHCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.dialect.Dialect[0;39m- [36mHHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[0;39m- [36mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[0;39m- [36mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mno modules loaded
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.elasticsearch.client.TransportClientFactoryBean[0;39m- [36mAdding transport node : 127.0.0.1:9300
+[0;39m2019/11/20-18:36 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[0;39m- [36mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping[0;39m- [36mAdding welcome page: class path resource [static/index.html]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.admin.AdminClientConfig[0;39m- [36mAdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka version: 2.3.0
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka commitId: fc1aaa116b661c8a
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka startTimeMs: 1574246173650
+[0;39m2019/11/20-18:36 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext[0;39m- [36mException encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: Consumer cannot be configured for auto commit for ackMode MANUAL_IMMEDIATE
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mShutting down ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[0;39m- [36mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Shutdown initiated...
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Shutdown completed.
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardService[0;39m- [36mStopping service [Tomcat]
+[0;39m2019/11/20-18:36 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener[0;39m- [36m
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m2019/11/20-18:36 [32m[main][0;39m [1;31mERROR[0;39m [1;35morg.springframework.boot.SpringApplication[0;39m- [36mApplication run failed
+[0;39morg.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is java.lang.IllegalStateException: Consumer cannot be configured for auto commit for ackMode MANUAL_IMMEDIATE
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:894)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: java.lang.IllegalStateException: Consumer cannot be configured for auto commit for ackMode MANUAL_IMMEDIATE
+	at org.springframework.util.Assert.state(Assert.java:94)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.determineAutoCommit(KafkaMessageListenerContainer.java:720)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.<init>(KafkaMessageListenerContainer.java:589)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer.doStart(KafkaMessageListenerContainer.java:327)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:323)
+	at org.springframework.kafka.listener.ConcurrentMessageListenerContainer.doStart(ConcurrentMessageListenerContainer.java:175)
+	at org.springframework.kafka.listener.AbstractMessageListenerContainer.start(AbstractMessageListenerContainer.java:323)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.startIfNecessary(KafkaListenerEndpointRegistry.java:309)
+	at org.springframework.kafka.config.KafkaListenerEndpointRegistry.start(KafkaListenerEndpointRegistry.java:256)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 common frames omitted
+2019/11/20-18:37 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.StartupInfoLogger[0;39m- [36mInetAddress.getLocalHost().getHostName() took 5004 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mStarting DemoApplication on xq.local with PID 23406 (/Users/bjhl/Desktop/code/javacode/demo/target/classes started by bjhl in /Users/bjhl/Desktop/code/javacode/demo)
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mNo active profile set, falling back to default profiles: default
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 63ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.mysql.MySQLBlogRepository.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mMultiple Spring Data modules found, entering strict repository configuration mode!
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mBootstrapping Spring Data repositories in DEFAULT mode.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationExtensionSupport[0;39m- [36mSpring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.demo.repository.es.EsBlogRepository.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.repository.config.RepositoryConfigurationDelegate[0;39m- [36mFinished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m- [36mBean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m- [36mTomcat initialized with port(s): 7080 (http)
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardService[0;39m- [36mStarting service [Tomcat]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.StandardEngine[0;39m- [36mStarting Servlet engine: [Apache Tomcat/9.0.27]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m- [36mInitializing Spring embedded WebApplicationContext
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.web.context.ContextLoader[0;39m- [36mRoot WebApplicationContext: initialization completed in 1474 ms
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Starting...
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.zaxxer.hikari.HikariDataSource[0;39m- [36mHikariPool-1 - Start completed.
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.jpa.internal.util.LogHelper[0;39m- [36mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.Version[0;39m- [36mHHH000412: Hibernate Core {5.4.6.Final}
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.annotations.common.Version[0;39m- [36mHCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.dialect.Dialect[0;39m- [36mHHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator[0;39m- [36mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean[0;39m- [36mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mno modules loaded
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.elasticsearch.plugins.PluginsService[0;39m- [36mloaded plugin [org.elasticsearch.transport.Netty4Plugin]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.data.elasticsearch.client.TransportClientFactoryBean[0;39m- [36mAdding transport node : 127.0.0.1:9300
+[0;39m2019/11/20-18:37 [32m[main][0;39m [31mWARN [0;39m [1;35morg.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration[0;39m- [36mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m- [36mInitializing ExecutorService 'applicationTaskExecutor'
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping[0;39m- [36mAdding welcome page: class path resource [static/index.html]
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.admin.AdminClientConfig[0;39m- [36mAdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 300000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 120000
+	retries = 5
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka version: 2.3.0
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka commitId: fc1aaa116b661c8a
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka startTimeMs: 1574246264057
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.ConsumerConfig[0;39m- [36mConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-group-id
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka version: 2.3.0
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka commitId: fc1aaa116b661c8a
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka startTimeMs: 1574246264233
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.KafkaConsumer[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Subscribed to topic(s): test-topic
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.scheduling.concurrent.ThreadPoolTaskScheduler[0;39m- [36mInitializing ExecutorService
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.Metadata[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Cluster ID: k9-_XzoISaGUs_a8pcS3QA
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.AbstractCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Discovered group coordinator 172.20.89.219:9092 (id: 2147483647 rack: null)
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.ConsumerCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Revoking previously assigned partitions []
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.springframework.kafka.listener.KafkaMessageListenerContainer[0;39m- [36mtest-group-id: partitions revoked: []
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.AbstractCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] (Re-)joining group
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35morg.springframework.boot.web.embedded.tomcat.TomcatWebServer[0;39m- [36mTomcat started on port(s): 7080 (http) with context path ''
+[0;39m2019/11/20-18:37 [32m[main][0;39m [34mINFO [0;39m [1;35mcom.example.demo.DemoApplication[0;39m- [36mStarted DemoApplication in 30.249 seconds (JVM running for 36.006)
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.AbstractCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] (Re-)joining group
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.AbstractCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Successfully joined group with generation 1
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.ConsumerCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Setting newly assigned partitions: test-topic-2, test-topic-0, test-topic-1
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.ConsumerCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Found no committed offset for partition test-topic-2
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.ConsumerCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Found no committed offset for partition test-topic-0
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.ConsumerCoordinator[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Found no committed offset for partition test-topic-1
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.SubscriptionState[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Resetting offset for partition test-topic-2 to offset 1.
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.SubscriptionState[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Resetting offset for partition test-topic-0 to offset 1.
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.consumer.internals.SubscriptionState[0;39m- [36m[Consumer clientId=consumer-1, groupId=test-group-id] Resetting offset for partition test-topic-1 to offset 1.
+[0;39m2019/11/20-18:37 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35morg.springframework.kafka.listener.KafkaMessageListenerContainer[0;39m- [36mtest-group-id: partitions assigned: [test-topic-2, test-topic-0, test-topic-1]
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/][0;39m- [36mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.springframework.web.servlet.DispatcherServlet[0;39m- [36mInitializing Servlet 'dispatcherServlet'
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.springframework.web.servlet.DispatcherServlet[0;39m- [36mCompleted initialization in 11 ms
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaSender[0;39m- [36m================= message = {"id":1574246388446,"msg":"测试消息: this is 1","sendTime":"Nov 20, 2019 6:39:48 PM"}
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.producer.ProducerConfig[0;39m- [36mProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka version: 2.3.0
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka commitId: fc1aaa116b661c8a
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.common.utils.AppInfoParser[0;39m- [36mKafka startTimeMs: 1574246388484
+[0;39m2019/11/20-18:39 [32m[kafka-producer-network-thread | producer-1][0;39m [34mINFO [0;39m [1;35morg.apache.kafka.clients.Metadata[0;39m- [36m[Producer clientId=producer-1] Cluster ID: k9-_XzoISaGUs_a8pcS3QA
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m----------------- record =ConsumerRecord(topic = test-topic, partition = 2, leaderEpoch = 0, offset = 1, CreateTime = 1574246388502, serialized key size = -1, serialized value size = 89, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1574246388446,"msg":"测试消息: this is 1","sendTime":"Nov 20, 2019 6:39:48 PM"})
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m------------------ message ={"id":1574246388446,"msg":"测试消息: this is 1","sendTime":"Nov 20, 2019 6:39:48 PM"}
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaSender[0;39m- [36m================= message = {"id":1574246391514,"msg":"测试消息: this is 2","sendTime":"Nov 20, 2019 6:39:51 PM"}
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m----------------- record =ConsumerRecord(topic = test-topic, partition = 0, leaderEpoch = 0, offset = 1, CreateTime = 1574246391514, serialized key size = -1, serialized value size = 89, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1574246391514,"msg":"测试消息: this is 2","sendTime":"Nov 20, 2019 6:39:51 PM"})
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m------------------ message ={"id":1574246391514,"msg":"测试消息: this is 2","sendTime":"Nov 20, 2019 6:39:51 PM"}
+[0;39m2019/11/20-18:39 [32m[http-nio-7080-exec-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaSender[0;39m- [36m================= message = {"id":1574246394519,"msg":"测试消息: this is 3","sendTime":"Nov 20, 2019 6:39:54 PM"}
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m----------------- record =ConsumerRecord(topic = test-topic, partition = 1, leaderEpoch = 0, offset = 1, CreateTime = 1574246394519, serialized key size = -1, serialized value size = 89, headers = RecordHeaders(headers = [], isReadOnly = false), key = null, value = {"id":1574246394519,"msg":"测试消息: this is 3","sendTime":"Nov 20, 2019 6:39:54 PM"})
+[0;39m2019/11/20-18:39 [32m[org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1][0;39m [34mINFO [0;39m [1;35mcom.example.demo.kafka.KafkaConsumer[0;39m- [36m------------------ message ={"id":1574246394519,"msg":"测试消息: this is 3","sendTime":"Nov 20, 2019 6:39:54 PM"}
 [0;39m
